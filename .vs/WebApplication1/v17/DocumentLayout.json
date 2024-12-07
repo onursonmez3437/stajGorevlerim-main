@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\autocomplate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\autocomplate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\iletisim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\iletisim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\deneme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\deneme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\api\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\api\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\controllers\\autocomplatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\controllers\\autocomplatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\controllers\\iletisimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\controllers\\iletisimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\shared\\_testlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\shared\\_testlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\API\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\API\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\API\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\API\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T15:32:57.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutocomplateController.cs",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\AutocomplateController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AutocomplateController.cs",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\AutocomplateController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AutocomplateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:36:48.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Default\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Default\\Index.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T15:30:14.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Deneme\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Deneme\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Deneme\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Deneme\\Index.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAIwFEBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T15:11:18.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Autocomplate\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Autocomplate\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Autocomplate\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Autocomplate\\Index.cshtml",
+              "ViewState": "AgIAADQBAAAAAAAAAADwv0kBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T15:10:00.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_TestLayout.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwC4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T13:15:13.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Iletisim\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Iletisim\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Iletisim\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Iletisim\\Index.cshtml",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAIwPsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T08:49:10.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:46:57.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IletisimController.cs",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\IletisimController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\IletisimController.cs",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\IletisimController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\IletisimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:46:48.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DefaultController.cs",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:57:48.16Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1828,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 2033,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

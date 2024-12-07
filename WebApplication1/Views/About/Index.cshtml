@@ -1,0 +1,65 @@
+﻿@using WebApplication1.Models.siniflar
+@model List<Hakkimizda>
+@using System.Globalization
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+<div class="content">
+    <div class="wrap">
+        <div class="about">
+            <h3 style="text-align: center;">CHATGPT'NİN BENİM HAKKIMDA YAZDIKLARI</h3>
+            <img src="~/web/images/about_banner.jpg" alt="" />
+
+            @if (Model != null && Model.Any())
+            {
+                foreach (var x in Model)
+                {
+                    if (!string.IsNullOrWhiteSpace(x.Aciklama))
+                    {
+                        <img src="x.FotoURL" alt="" />
+                        <p>@x.Aciklama</p>
+                    }
+                }
+            }
+            else
+            {
+
+                <p><strong style="font-weight: bold;">Mesleki Durum:</strong> Bir yazılım şirketinde staj yapıyorsunuz. ASP.NET MVC, Google Maps API ve veri tabanı yönetimi gibi konularla ilgileniyorsunuz.</p>
+
+                <p>
+                    <strong style="font-weight: bold;">Projeler:</strong>
+
+                    "Photier.WebV2" adında bir projede çalışıyorsunuz.
+                    Hangfire ile zamanlanmış işler oluşturduğunuz bir proje üzerinde çalışıyorsunuz ("hangFireFenemem").
+                    Projelerinizde localization (l10n) desteği üzerinde çalışıyorsunuz.
+                </p>
+                <p>
+                    <strong style="font-weight: bold;">Kodlama Tercihleri:</strong>
+
+                    CSS'te inline stiller kullanmayı tercih ediyorsunuz.
+                    Butonlarda kenarlık kaldırmayı ve köşelere hafif yuvarlama(border radius) eklemeyi seviyorsunuz.
+                </p>
+                <p>
+                    <strong style="font-weight: bold;">Karşılaştığınız Sorunlar: </strong>
+
+                    DataReader ile ilgili açık bağlantı hatasıyla karşılaştınız.
+                    Projenizde bazı çeviri işlemleri beklendiği gibi çalışmıyor.
+                </p>
+                <p>
+                    <strong style="font-weight: bold;">Dizin ve Dosyalar:</strong>
+
+                    Çalışma dosyalarınız genelde C:\web klasöründe yer alıyor.
+                    Bazı önemli dosyalar: ManagerService.cs, Detail.Overview.cshtml, EventStats.cs.
+                </p>
+                <p>
+                    <strong style="font-weight: bold;">Dil ve Tercihler:</strong>
+
+                    Açıklamaların Türkçe yapılmasını tercih ediyorsunuz.
+                    Kullanıcı deneyimini geliştirmek için HTML, CSS ve JavaScript ile çalışıyorsunuz.
+                </p>
+            }
+
+        </div>
+    </div>
+</div>

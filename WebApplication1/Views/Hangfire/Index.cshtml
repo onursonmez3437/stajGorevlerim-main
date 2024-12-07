@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Butonun genel stili */
+        #downloadButton {
+            background-color: #4CAF50; /* Yeşil arka plan */
+            color: white; /* Beyaz yazı rengi */
+            padding: 12px 25px; /* Yükseklik ve genişlik */
+            font-size: 16px; /* Yazı boyutu */
+            font-weight: bold; /* Kalın yazı tipi */
+            text-align: center; /* Metni ortala */
+            text-decoration: none; /* Altı çizili olmasın */
+            border: none; /* Kenarlık yok */
+            border-radius: 50px; /* Yuvarlak buton şekli */
+            cursor: pointer; /* Fareyi üzerine getirdiğinde el simgesi */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
+            transition: all 0.3s ease; /* Tüm özelliklerde geçiş animasyonu */
+        }
+
+            /* Buton hover durumunda */
+            #downloadButton:hover {
+                background-color: #45a049; /* Hover durumunda arka plan rengi */
+                box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Gölgeleme biraz daha belirgin olur */
+                transform: scale(1.05); /* Hover durumunda biraz büyür */
+            }
+
+            /* Butonun tıklanabilirliğini belirten animasyon */
+            #downloadButton:active {
+                transform: scale(0.98); /* Buton tıklandığında küçülme efekti */
+            }
+
+            /* Butonun metni içinde küçük bir ikon eklenmesi için stil */
+            #downloadButton i {
+                margin-right: 8px; /* İkon ile metin arasına boşluk bırak */
+            }
+    </style>
+    <script>
+        window.onload = function () {
+            // Buton tıklanması ile dosya indirme
+            document.getElementById("downloadButton").onclick = function () {
+                // Sunucu üzerindeki doğru resim yolunu belirtin
+                var imageUrl = "/web/images/glasss.png";  // Sunucudaki resmin yolu
+
+                // Gizli bir link oluştur ve tıkla
+                var link = document.createElement("a");
+                link.href = imageUrl;
+                link.download = "resim.jpg";  // İndirilen dosyanın ismi
+                link.style.display = "none";  // Linki gizle
+                document.body.appendChild(link);  // Sayfaya linki ekle
+                link.click();  // Linke tıkla
+                document.body.removeChild(link);  // Linki sayfadan kaldır
+            };
+        }
+    </script>
+</head>
+<body>
+    <!-- Resmi indirmek için daha şık ve özel tasarımlı buton -->
+    <button id="downloadButton">
+        <i class="fa fa-download"></i> Resmi İndir
+    </button>
+</body>
+</html>

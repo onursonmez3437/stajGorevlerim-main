@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "ChangeLanguage";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<h2>ChangeLanguage</h2>
+@Html.ActionLink("Türkçe", "ChangeLanguage", "Home", new { lang = "tr-TR" }, null)
+@Html.ActionLink("English", "ChangeLanguage", "Home", new { lang = "en-US" }, null)
+
+

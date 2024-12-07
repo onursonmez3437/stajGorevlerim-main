@@ -1,0 +1,88 @@
+﻿@model List<WebApplication1.Models.siniflar.Nedir>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+
+    // ID'si 1 olan öğeyi filtrele
+    var filteredModel = Model.Where(x => x.ID == 1).ToList();
+}
+<head>
+    <title>Photier Staj Sitem</title>
+    <link href="~/web2/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="~/web2/css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Personal Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+</head>
+<style>
+    .bold-paragraph {
+        color: #000000 !important;
+    }
+</style>
+<style>
+    .sticky {
+        position: fixed;
+        top: 250px; /* Sayfanın üstünden 10px boşluk bırak */
+        right: 50px; /* Sayfanın sağından 10px boşluk bırak */
+        width: 350px; /* Sabit genişlik ayarla */
+    }
+</style>
+
+<body>
+    <div class="single">
+        <div class="container">
+            <div class="col-md-8 single-main">
+                @foreach (var x in filteredModel)
+                {
+                    <div class="single-grid">
+                        <p class="bold-paragraph">@x.aciklama</p>
+                        <img src="@x.ekAciklama" alt="" style="margin-buttom:20px;" />
+                        <p class="bold-paragraph">@x.aciklama2</p>
+                        <p class="bold-paragraph">API’nin Önemi</p>
+                        <p class="bold-paragraph">@x.aciklama3</p>
+                        <p class="bold-paragraph">API’nin İşleyişi</p>
+                        <img src="@x.imageUrl2" alt="" style="margin-buttom:20px;" />
+                        <ul>
+                            <li>* İstemci: Müşteri, menüden yemek siparişi verir.</li>
+                            <li>* API: Garson, siparişi mutfağa iletir.</li>
+                            <li>* Sunucu: Mutfak, yemeği hazırlar ve garson aracılığıyla müşteriye teslim eder.</li>
+                        </ul>
+                        <p class="bold-paragraph">
+                            Özetle
+                            API (Application Programming Interface), farklı yazılımlar arasında iletişimi sağlayan ve onların ortak bir dil üzerinden veri alışverişi yapmalarını mümkün kılan önemli bir bileşendir. Gündelik hayatımızda farklı diller konuşan iki kişinin ortak bir dilde iletişim kurması gibi, API’ler de farklı yazılımlar arasında ortak bir köprü işlevi görür. Bu yüzden yazılım geliştirme süreçlerinde önemli bir yer tutar ve pek çok işlevin sıfırdan yazılmadan entegre edilebilmesini sağlar.
+                        </p>
+                    </div>
+                }
+            </div>
+            <div class="col-md-4 side-content">
+                <div class="col-md-4 side-content sticky">
+                    <div class="recent">
+                        <h3>SON NEDİRLER</h3>
+                        <table border="1" style="width: 100%; text-align: left;">
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.konu</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="comments">
+                        <h3>SON YORUMLAR</h3>
+                        <ul>
+                            <li><a href="#">Amada Doe </a> on <a href="#">Hello World!</a></li>
+                            <li><a href="#">Peter Doe </a> on <a href="#">Photography</a></li>
+                            <li><a href="#">Steve Roberts</a> on <a href="#">HTML5/CSS3</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

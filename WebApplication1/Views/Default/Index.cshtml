@@ -1,0 +1,151 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<body>
+    <div class="header-banner">
+        <div class="wrap">
+            <div class="banner">
+                <div class="indent">
+                    <h2 class="indent-left margin-bot" style="letter-spacing: 0.2em; text-align: center;">STAJDA ÖĞRENDİKLERİM</h2>
+                    <div class="banner-left">
+                        <div class="con-text">
+                            <a href="/Autocomplate/Index">
+                                <div class="grid1-img">
+                                    <img src="~/web/images/glasss.jpg" alt="" style="width: 68px; height: 68px;">
+                                </div>
+                                <div class="grid1-desc">
+                                    <p>AUTOCOMPLATE</p>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </div>
+                        <div class="con-text">
+                            <a href="/WEB_200/Index">
+                                <div class="grid1-img">
+                                    <img style="width: 68px; height: 68px;" src="~/web/images/flightta.png" alt="">
+                                </div>
+                                <div class="grid1-desc">
+                                    <p>WEB-200</p>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </div>
+                        <div class="con-text">
+                            <a href="/Hangfire/Index">
+                                <div class="grid1-img">
+                                    <img style="width: 68px; height: 68px;" src="~/web/images/groupp.png" alt="">
+                                </div>
+                                <div class="grid1-desc">
+                                    <p>HANGFİRE</p>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </div>
+                        <div class="con-text">
+                            <a href="/Lokalizasyon/Index">
+                                <div class="grid1-img">
+                                    <img style="width: 68px; height: 68px;" src="~/web/images/keyy.png" alt="">
+                                </div>
+                                <div class="grid1-desc">
+                                    <p>LOKALİZASYON</p>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="header_bottom_right_images">
+                        <div class="slider">
+                            <ul class="rslides" id="slider1">
+
+                                <li style="position: relative;">
+                                    <a href="/Autocomplate/Index">
+                                        <img src="~/web/images/imga.jpg" style="width: 650px; height: 400px;">
+                                        <span class="image-text">AUTOCOMPLATE GÖREVİ</span>
+                                    </a>
+                                </li>
+                                <li style="position: relative;">
+                                    <a href="/WEB_200/Index/">
+                                        <img src="~/web/images/imgb.jpg" style="width: 650px; height: 400px;">
+                                        <span class="image-text">WEB-200 GÖREVİ</span>
+                                    </a>
+                                </li>
+                                <li style="position: relative;">
+                                    <a href="/Hangfire/Index/">
+                                        <img src="~/web/images/imgc.jpg" style="width: 650px; height: 400px;">
+                                        <span class="image-text">HANGFİRE GÖREVİ</span>
+                                    </a>
+                                </li>
+                                <li style="position: relative;">
+                                    <a href="/Lokalizasyon/Index/">
+                                        <img src="~/web/images/imgd.jpg" style="width: 650px; height: 400px;">
+                                        <span class="image-text">LOKALİZASYON GÖREVİ</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <style>
+                                strongg {
+                                    font-weight: bold;
+                                }
+                            </style>
+                            <style>
+                                /* Resimlere yazıyı eklemek için ortak stil */
+                                .rslides li {
+                                    position: relative;
+                                }
+
+                                /* Yazıyı resmin alt kısmına ve ortalayarak yerleştir */
+                                .image-text {
+                                    position: absolute;
+                                    bottom: 10px; /* Yazıyı resmin altına yerleştir */
+                                    left: 50%; /* Yatayda ortalar */
+                                    transform: translateX(-50%); /* Yatayda tam ortalamak için */
+                                    color: white;
+                                    font-size: 24px;
+                                    background-color: rgba(139,10, 80, 0.8); /* Pembe arka plan rengi */
+                                    padding: 10px;
+                                    border-radius: 5px;
+                                    display: none;
+                                }
+
+                                /* Resmin üzerine gelindiğinde yazının görünmesini sağlamak */
+                                .rslides li a:hover .image-text {
+                                    display: block;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class"content">
+        <div class="wrap">
+            <div class="wrapper">
+                @Html.Action("PartialStajdaOgrendiklerim", "Default")
+                <div class="grids">
+                    <div class="box1">
+                        @Html.Action("EnCokBegendiklerim", "Default")
+                        @Html.Action("Dusuncelerim", "Default")
+                        <div class="clear"></div>@* burası silinirse alt kısımlar kırmızı gözüküyor silme !!*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

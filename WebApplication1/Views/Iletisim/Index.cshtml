@@ -1,0 +1,349 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .custom-style {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            margin: 0 0 20px;
+            color: #000; /* Siyah yazı rengi */
+            background-color: #fff; /* Beyaz arka plan */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            width: 60%;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        /* Profil Alanı */
+        .profile-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .profile-left {
+            flex: 1;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .profile-left h1 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .profile-right {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+            .profile-right h2 {
+                font-size: 18px;
+                margin: 0 0 10px 0;
+            }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        /* Diğer Bölümler */
+        section {
+            margin-top: 20px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .projects li {
+            margin: 10px 0;
+            .contact-info
+
+        {
+            display: flex;
+            flex-direction: column; /* Satırları üst üste hizalar */
+            gap: 10px; /* Satırlar arasına boşluk ekler */
+        }
+
+
+        .row {
+            display: flex;
+            justify-content: space-between; /* İki öğeyi yatayda hizalar */
+            align-items: center; /* Yatayda hizalama */
+        }
+
+            .row p {
+                flex: 1; /* Eşit alan dağılımı sağlar */
+                margin: 0; /* Varsayılan boşlukları kaldırır */
+            }
+
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column; /* Satırları üst üste hizalar */
+            gap: 10px; /* Satırlar arasına boşluk ekler */
+        }
+
+        .genelbilgiler-row {
+            display: flex;
+            justify-content: space-between; /* İki öğeyi yatayda hizalar */
+            width: 100%; /* Kapsayıcıya tüm genişliği ver */
+        }
+
+        .phone-row p {
+            margin: 0; /* Varsayılan boşlukları kaldırır */
+        }
+
+        .parafraf-baslıkları {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            color: #A2365A;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #333;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onur Sönmez - Junior Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-left">
+                <img src="~/web/images/pic7.jpg" alt="Profil Fotoğrafı" class="profile-img">
+                <h1>ONUR SÖNMEZ</h1>
+            </div>
+            <div class="profile-right">
+                <h2 style="text-align: center">Junior Software Developer</h2>
+                <div class="contact-info">
+                    <div class="genelbilgiler-row">
+                        <p>📞 0541 486 48 24</p>
+                        <p style="margin-right: 94px;">📍 İstanbul / Sancaktepe</p>
+                    </div>
+                    <div class="genelbilgiler-row">
+                        <p>
+                            <a href="https://www.linkedin.com/in/onursonmez37" target="_blank" title="LinkedIn Profile">
+                                <i class="fab fa-linkedin" style="font-size: 24px;"></i> onursonmez3734
+                            </a>
+                        </p>
+
+                        <p>
+                            <a style="margin-right: 140px;" href="https://github.com/onursonmez3734" target="_blank" title="GitHub Profile">
+                                <i class="fab fa-github"></i> onursonmez37
+                            </a>
+                        </p>
+                    </div>
+                    <div class="genelbilgiler-row">
+                        <p>📧 onursonmez3437@gmail.com</p>
+                        <p style="margin-right: 230px;">🚗 B</p>
+                    </div>
+                </div>
+            </div>
+        </header><br />
+        <h1 class="parafraf-baslıkları" style="text-align: center;">HAKKIMDA</h1><br />
+        <p class="custom-style">
+            Yazılım geliştirici olarak sürekli kendimi geliştirmeyi amaçlıyorum. Projeler üretip çabalayarak bilgi ve becerilerimi arttırmaya odaklanıyorum. Projelerde lokomotif bir birey olmayı seven takımını her zaman daha üst seviyeye çıkarmaya çalışan bir yapıya sahibim. Takım çalışmasına yatkın, öğrenmeye her zaman açık ve sorumluluk sahibi bir birey olarak, yazılım geliştirme kariyerime odaklanıyorum. Eğitimim ve gerçekleştirdiğim projelerle edindiğim deneyimleri, sizinle işbirliği yaparak daha da ileri taşımak ve katkıda bulunmak istiyorum.
+        </p>
+        <section class="education">
+            <h3 class="parafraf-baslıkları" style="text-align: center;">EĞİTİM</h3>
+            <p><strong>2021 - 2024</strong>  Bartın Üniversitesi - Bilgisayar Mühendisliği 2.85 ort.</p><br />
+            <p><strong>2018 - 2020</strong>  Bilecik Şeyh Edebali Üniversitesi - Bilgisayar Programcılığı 3.27 ort.</p>
+        </section>
+        <section class="projects">
+            <h3 class="parafraf-baslıkları" style="text-align: center;">PROJELER</h3>
+            <ul>
+                <li style="display: flex; justify-content: space-between;">
+                    <strong style="flex: 1; text-align: left;">Kendimi Geliştirme Web Sitesi:</strong>
+                    <span style="flex: 2; text-align: left;">Photier firmasında yapmış olduğum stajda öğrendiklerimi ve kendimi geliştirmek adına yapmış olduğum web sitesi. Bu projede ASP.NET MVC ile  API hizmetleri , Javascipt ve jquery ile stillendirme çalışmaları ve Hangfire arka planda çalışan görevler üzerinde çok dilli bir web sayfası projesi.</span>
+                </li>
+                <li style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                    <strong style="flex: 1; text-align: left;">Bilet Otomasyonu:</strong>
+                    <span style="flex: 2; text-align: left;">
+                        C# ile geliştirmiş olduğum TCDD bilet alma otomasyonunun klon projesidir.
+                        Projede ,bilet alma işlemi , veri görüntüleme , veri çekme , veri tabanına veri yazma gibi işlemler kullanılmıştır. Koltukların boşluk doluluk durumunun gösterimi belirtilmiş ve bilet alım işleminin sonucunda bilet bilgileri yansıtılmıştır.
+                    </span>
+                </li>
+                <li style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                    <strong style="flex: 1; text-align: left;">7 Fark Bulma Oyunu:</strong>
+                    <span style="flex: 2; text-align: left;">Kotlin ile yapmış olduğum bu projede giriş ekranı ve 3 farklı zorluk seviyesinde sayfalar bulunaktadır. Bu sayfalardaki 7 farkın bulunmasıyla diğer sayfalar aktif edilip oyunun devamlılığı sağlanmaktadır. 3 adet yanlış seçimin ardından bölüm tekrarı sağlanmaktadır. </span>
+                </li>
+            </ul>
+        </section>
+        <section class="deneyim">
+            <h3 class="parafraf-baslıkları" style="text-align: center;">DENEYİM</h3>
+            <div style="display: flex; justify-content: space-between; width: 100%;">
+                <div style="text-align: left; width: 33%;">
+                    <p class="paragraflar" style="text-align: center;">Photier 🏠💻</p>
+                    <p class="paragraflar" style="text-align: center;">Full Stack Developer Stajyer</p><br />
+                    <ul>
+                        <li>ASP.NET MVC projelerinde aktif olarak görev aldım ve mevcut projelerde hata ayıklama, kod optimizasyonu ve yeni özellikler geliştirme çalışmaları gerçekleştirdim.</li>
+                        <li>Google Maps API ve kullanıcı konum verileri entegrasyonu gibi işlevsel özelliklerin geliştirilmesine katkıda bulundum.</li>
+                        <li>DataTables.js ve benzeri kütüphaneler kullanarak, dinamik ve çok dilli kullanıcı arayüzleri oluşturma ve düzenleme görevlerini üstlendim.</li>
+                    </ul>
+
+                </div>
+                <div style="text-align: center; width: 33%;">
+                    <p>Radore 🏢💻</p>
+                    <p>Yazılım Test Stajyer</p><br />
+                    <ul>
+                        <li><p class="paragraflar" style="text-align: left;">Staj sürecim boyunca, şirketin web sitesindeki teknik aksaklıkları inceleyip çözüm yolları geliştirdim. Hata ayıklama (debug) analizleri yaparak sistem performansını artırmaya ve kullanıcı geri bildirimlerine dayalı iyileştirmelerle deneyimi optimize etmeye odaklandım.</p></li>
+                        <li><p class="paragraflar" style="text-align: left;">Bu süreç, teknik bilgilerimi pratiğe dökme, sektördeki yenilikleri takip etme ve takım çalışması ile problem çözme becerilerimi geliştirmemi sağladı.</p></li>
+                    </ul>
+                </div>
+                <div style="text-align: left; width: 33%;">
+                    <p style="text-align: center">Seranit 🏢💻</p>
+                    <p style="text-align: center">IT Stajyer</p><br />
+                    <div class="support-and-project-management">
+                        <ul>
+                            <li>Kullanıcılara teknik destek sağlama, yazılım ve donanım problemlerini çözme.</li>
+                            <li>Sistem performans sorunlarını ve hata mesajlarını tespit edip gidermek.</li>
+                        </ul>
+                        <ul>
+                            <li>Takım içinde yazılım ve donanım projelerinde iş birliği yapmarak proje süreçlerini takip edip düzenli raporlama ve hedeflere ulaşımı sağlama görevi üstlendim.Bunların yanı sıra sistem ve ağ yönetimi ile altyapının güvenliğini ve sürekliliğini sağlama.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <h3 class="parafraf-baslıkları" style="text-align: center;">YETENEKLER</h3>
+
+        <div style="display: flex; justify-content: space-around; align-items: center; gap: 20px;">
+            <div>
+                <canvas id="myPieChart1" width="300" height="300"></canvas>
+            </div>
+            <div>
+                <canvas id="myPieChart2" width="300" height="300"></canvas>
+            </div>
+        </div>
+        <h3 class="parafraf-baslıkları" style="text-align: center;">REFERANSLAR</h3>
+        <section class="deneyim">
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: flex-start;">
+                <!-- Photier -->
+                <div style="text-align: left; width: 45%;">
+                    <p class="paragraflar" style="text-align: center;">Photier 🏠💻</p>
+                    <p class="paragraflar" style="text-align: center;">Roy Simkes</p><br />
+                    <ul style="list-style-type: none; padding: 0; display: flex; gap: 15px; justify-content: center; align-items: center;">
+                        <li>
+                            <a href="https://www.linkedin.com/in/roysimkes/" style="text-decoration: none;">
+                                <i class="fab fa-linkedin" style="font-size: 50px; color: #0078D7;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:roy.simkes@photier.com" style="text-decoration: none; color: #0078D7; font-size: 50px;">
+                                📧
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Seranit -->
+                <div style="text-align: left; width: 45%;">
+                    <p class="paragraflar" style="text-align: center;">Seranit 🏢💻</p>
+                    <p class="paragraflar" style="text-align: center;">Ömür Elbaş</p><br />
+                    <ul style="list-style-type: none; padding: 0; display: flex; gap: 15px; justify-content: center; align-items: center;">
+                        <li>
+                            <a href="https://www.linkedin.com/in/%C3%B6m%C3%BCr-elba%C5%9F-77161387/" style="text-decoration: none;">
+                                <i class="fab fa-linkedin" style="font-size: 50px; color: #0078D7;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:omur.elbas@seranit.com.tr" style="text-decoration: none; color: #0078D7; font-size: 50px;">
+                                📧
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        var ctx = document.getElementById('myPieChart1').getContext('2d');
+        var myPieChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['ASP.NET', 'JAVA', 'JavaScript', 'Kotlin'], // Grafik segmentlerinin etiketleri
+                datasets: [{
+                    label: '%',
+                    data: [40, 30, 15, 15], // Her bir segmentin değeri
+                    backgroundColor: ['#FF0000', '#ffde66', '#008080', '	#f4a460'], // Segment renkleri
+                    hoverOffset: 4, // Fare üzerine geldiğinde offset animasyonu
+                }]
+            },
+            options: {
+                responsive: true,
+                animation: {
+                    animateScale: true, // Ölçek animasyonu
+                    animateRotate: true // Dönme animasyonu
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myPieChart2').getContext('2d');
+        var myPieChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Canva', 'Photoshop', 'FIGMA', 'Fıreworks'], // Grafik segmentlerinin etiketleri
+                datasets: [{
+                    label: '%',
+                    data: [35, 35, 15, 15], // Her bir segmentin değeri
+                    backgroundColor: ['#ee1289', '#8deeee', '#ffdead', '#ffe4e1'], // Segment renkleri
+                    hoverOffset: 4, // Fare üzerine geldiğinde offset animasyonu
+                }]
+            },
+            options: {
+                responsive: true,
+                animation: {
+                    animateScale: true, // Ölçek animasyonu
+                    animateRotate: true // Dönme animasyonu
+                }
+            }
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,415 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .custom-style {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            margin: 0 0 20px;
+            color: #000; /* Siyah yazı rengi */
+            background-color: #fff; /* Beyaz arka plan */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 10px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .iccontainer1 {
+            display: flex; /* Flexbox düzeni */
+            align-items: center; /* Dikey hizalama */
+            width: 45%;
+            margin: 10px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            gap: 20px; /* Görsel ve metin arasında boşluk */
+        }
+
+        .image-container {
+            flex: 1; /* Görselin alanı */
+        }
+
+            .image-container img {
+                width: 300px;
+                height: 300px; /* Görselin genişliğini kapsamasını sağlar */
+                border-radius: 10px; /* Köşeleri yuvarlama */
+            }
+
+        .text-container {
+            flex: 2; /* Yazının genişliği görsele göre daha fazla */
+        }
+
+        .iccontainer2 {
+            display: flex; /* Flexbox düzeni */
+            align-items: center; /* Dikey hizalama */
+            width: 45%;
+            margin: 10px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            gap: 20px; /* Görsel ve metin arasında boşluk */
+        }
+        /* Profil Alanı */
+        .profile-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .profile-left {
+            flex: 1;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .profile-left h1 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .profile-right {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+            .profile-right h2 {
+                font-size: 18px;
+                margin: 0 0 10px 0;
+            }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        /* Diğer Bölümler */
+        section {
+            margin-top: 20px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .projects li {
+            margin: 10px 0;
+            .contact-info
+
+        {
+            display: flex;
+            flex-direction: column; /* Satırları üst üste hizalar */
+            gap: 10px; /* Satırlar arasına boşluk ekler */
+        }
+
+
+        .row {
+            display: flex;
+            justify-content: space-between; /* İki öğeyi yatayda hizalar */
+            align-items: center; /* Yatayda hizalama */
+        }
+
+            .row p {
+                flex: 1; /* Eşit alan dağılımı sağlar */
+                margin: 0; /* Varsayılan boşlukları kaldırır */
+            }
+
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column; /* Satırları üst üste hizalar */
+            gap: 10px; /* Satırlar arasına boşluk ekler */
+        }
+
+        .genelbilgiler-row {
+            display: flex;
+            justify-content: space-between; /* İki öğeyi yatayda hizalar */
+            width: 100%; /* Kapsayıcıya tüm genişliği ver */
+        }
+
+        .phone-row p {
+            margin: 0; /* Varsayılan boşlukları kaldırır */
+        }
+
+        .parafraf-baslıkları {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            color: #A2365A;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #333;
+        }
+    </style>
+    <style>
+        /*
+        * Always set the map height explicitly to define the size of the div element
+        * that contains the map.
+        */
+        #map {
+            height: 566px;
+            width: 100%;
+        }
+
+        /*
+        * Optional: Makes the sample page fill the window.
+        */
+        html,
+        body {
+            height: 90%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #place-autocomplete-card {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: 10px;
+            padding: 5px;
+            font-family: Roboto, sans-serif;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        gmp-place-autocomplete {
+            width: 300px;
+        }
+
+        #infowindow-content .title {
+            font-weight: bold;
+        }
+
+        #map #infowindow-content {
+            display: inline;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onur Sönmez - Junior Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="place-autocomplete-card" id="place-autocomplete-card">
+            <p>Konum Giriniz</p>
+        </div>
+        <div id="map"></div><br />
+        <h3 class="parafraf-baslıkları" style="text-align: center;">NASIL YAPILIR ? </h3>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div class="iccontainer1">
+                <div class="content">
+                    <!-- Sol tarafa resim -->
+                    <div class="image-container">
+                        <img style="width:600px; height600px;" src="~/images/adım1.jpg" alt="Açıklayıcı Görsel" />
+                    </div>
+                    <!-- Sağ tarafa yazı -->
+                    <div class="text-container">
+                        <h3 class="parafraf-baslıkları" style="text-align: left;">ADIM 1 : GOOGLE AUTOCOMPLATE PLACE ARAMASI</h3>
+                        <p>Arama motorumuzdan Google autocomplete place araması yaparak <a href="https://developers.google.com">developers.google.com</a> sitesine giriş yapıyoruz.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="iccontainer2">
+                <div class="content">
+                    <!-- Sol tarafa resim -->
+                    <div class="image-container">
+                        <img style="width:600px; height600px;" src="~/images/GoogleCloudConsoleGit.jpg" alt="Açıklayıcı Görsel" />
+                    </div>
+                    <!-- Sağ tarafa yazı -->
+                    <div class="text-container">
+                        <h3 class="parafraf-baslıkları" style="text-align: left;">ADIM 2 : API KULLANIMI</h3>
+                        <p>Link üzerinden <a href="https://console.cloud.google.com/projectselector2/apis/dashboard?utm_source=Docs_EnabledAPIsView&hl=tr&inv=1&invt=Abjezw">Google Cloud Console'a </a>gidiyoruz ve burada belirtmiş olduğu adımları uyguluyoruz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="parafraf-baslıkları" style="text-align: center;"></h3>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div class="iccontainer1">
+                <div class="content">
+                    <!-- Sol tarafa resim -->
+                    <div class="image-container">
+                        <img style="width:600px; height600px;" src="~/images/NewProject.jpg" alt="Açıklayıcı Görsel" />
+                    </div>
+                    <!-- Sağ tarafa yazı -->
+                    <div class="text-container">
+                        <h3 class="parafraf-baslıkları" style="text-align: left;">ADIM 3 : NEW PROJECT</h3>
+                        <p>Burada New Project butonuna tıklayarak yeni proje oluşturuyoruz. Bu projeye özel key almak için yapıyoruz.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="iccontainer2">
+                <div class="content">
+                    <!-- Sol tarafa resim -->
+                    <div class="image-container">
+                        <img style="width:600px; height600px;" src="~/images/PlaceAPI.jpg" alt="Açıklayıcı Görsel" />
+                    </div>
+                    <!-- Sağ tarafa yazı -->
+                    <div class="text-container">
+                        <h3 class="parafraf-baslıkları" style="text-align: left;">ADIM 4 : PLACE API ETKİNLEŞTİRME </h3>
+                        <p>Burada API için gerekli etkinleştirmeleri yapıyoruz ve yetkilendirmeleri uyguluyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="parafraf-baslıkları" style="text-align: center;"></h3>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div class="iccontainer1">
+                <div class="content">
+                    <!-- Sol tarafa resim -->
+                    <div class="image-container">
+                        <img style="width:600px; height600px;" src="~/images/KEY.jpg" alt="Açıklayıcı Görsel" />
+                    </div>
+                    <!-- Sağ tarafa yazı -->
+                    <div class="text-container">
+                        <h3 class="parafraf-baslıkları" style="text-align: left;">ADIM 5 : KEY ALMA</h3>
+                        <p>Projemizde kullanmak üzere keyimiz alıyoruz. Bu key değeri olmadan projemizde göstermek imkansız bu yüzden key değerini düzgün kopyaladığınıza dikkat edin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="iccontainer2">
+                <div class="content">
+                    <!-- Sol tarafa resim -->
+                    <div class="image-container">
+                        <img style="width:600px; height600px;" src="~/images/SiteyeYerleştirme.jpg" alt="Açıklayıcı Görsel" />
+                    </div>
+                    <!-- Sağ tarafa yazı -->
+                    <div class="text-container">
+                        <h3 class="parafraf-baslıkları" style="text-align: left;">ADIM 6 : SİTEYE YERLEŞTİRME</h3>
+                        <p>Web sayfasında geliştiriciler için paylaşmış oldukları kodları projemize entegre ederek kullanıma hazır hale getiriyoruz. YOUR_API_KEY kısmına Google Cloud Console dan aldığımız KEY'i giriyoruz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+            ({ key: "AIzaSyBhztaPOLCX-EQYLGg2f0JKMTAzK9dzqNk", v: "beta" });</script>
+</body>
+</html>
+<script>
+    let map;
+    let marker;
+    let infoWindow;
+
+    async function initMap() {
+        // Request needed libraries.
+        const [{ Map }, { AdvancedMarkerElement }] = await Promise.all([
+            google.maps.importLibrary("marker"),
+            google.maps.importLibrary("places"),
+        ]);
+
+        // Initialize the map with Istanbul's coordinates and set initial zoom level
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 41.0082, lng: 28.9784 },  // İstanbul coordinates
+            zoom: 12,  // Set initial zoom level
+            mapId: "4504f8b37365c3d0",
+            mapTypeControl: false,
+            gestureHandling: "greedy",  // Allow zoom with touch or mouse wheel
+        });
+
+        const placeAutocomplete = new google.maps.places.PlaceAutocompleteElement();
+
+        placeAutocomplete.id = "place-autocomplete-input";
+
+        const card = document.getElementById("place-autocomplete-card");
+
+        card.appendChild(placeAutocomplete);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
+
+        // Create the marker and infowindow
+        marker = new google.maps.marker.AdvancedMarkerElement({
+            map,
+        });
+        infoWindow = new google.maps.InfoWindow({});
+
+        // Add the gmp-placeselect listener, and display the results on the map.
+        placeAutocomplete.addEventListener("gmp-placeselect", async ({ place }) => {
+            await place.fetchFields({
+                fields: ["displayName", "formattedAddress", "location"],
+            });
+
+            // If the place has a geometry, then present it on a map.
+            if (place.viewport) {
+                map.fitBounds(place.viewport);
+            } else {
+                map.setCenter(place.location);
+                map.setZoom(17);  // Programmatically update zoom level when a location is selected
+            }
+
+            let content =
+                '<div id="infowindow-content">' +
+                '<span id="place-displayname" class="title">' +
+                place.displayName +
+                "</span><br />" +
+                '<span id="place-address">' +
+                place.formattedAddress +
+                "</span>" +
+                "</div>";
+
+            updateInfoWindow(content, place.location);
+            marker.position = place.location;
+        });
+    }
+
+    // Helper function to create an info window.
+    function updateInfoWindow(content, center) {
+        infoWindow.setContent(content);
+        infoWindow.setPosition(center);
+        infoWindow.open({
+            map,
+            anchor: marker,
+            shouldFocus: false,
+        });
+    }
+
+    initMap();
+</script>
+
+

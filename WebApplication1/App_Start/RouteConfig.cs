@@ -14,9 +14,17 @@ namespace WebApplication1
 			routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
 			routes.MapRoute(
+				name: "DefaultWithLang",
+				url: "{lang}/{controller}/{action}/{id}",
+				defaults: new { lang = "tr", controller = "Home", action = "Index", id = UrlParameter.Optional },
+				constraints: new { lang = "tr|en" } // Sadece Türkçe ve İngilizce
+			);
+
+			// Dil parametresi olmadan gelen istekler için rota
+			routes.MapRoute(
 				name: "Default",
 				url: "{controller}/{action}/{id}",
-				defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+				defaults: new { lang = "tr", controller = "Home", action = "Index", id = UrlParameter.Optional }
 			);
 		}
 	}

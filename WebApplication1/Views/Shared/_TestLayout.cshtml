@@ -20,7 +20,7 @@
     <script src="~/web/js/responsiveslides.min.js"></script>
 
     <script>
-    // You can also use "$(window).load(function() {"
+        // You can also use "$(window).load(function() {"
         $(function () {
             // Slideshow 1
             $("#slider1").responsiveSlides({
@@ -32,9 +32,6 @@
         });</script>
 </head>
 <body>
-    @{
-        var currentLang = ViewBag.Language ?? "tr";
-    }
     <div class="header">
         <div class="wrap">
             <div class="logo"><a href="/Default/Index/"><img src="~/web/images/logoo.png" style="width: 100px; height: 100px;" alt="" /></a></div>
@@ -44,6 +41,10 @@
                 </div>
                 <div class="grid1-l-desc">
                     <p>+90 541 486 48 24</p>
+                    <ul>
+                        <a href="#" class="btn btn-primary" onclick="changeLanguage('tr')">Türkçe</a>
+                        <a href="#" class="btn btn-secondary" onclick="changeLanguage('en')">English</a>
+                    </ul>
                     <a href="https://www.linkedin.com/in/onursonmez37/">
                         <img style="width: 30px; height: 30px;" src="~/web/images/contactt.png" alt="Contact">
                     </a>
@@ -51,14 +52,6 @@
                         <img style="width: 30px; height: 30px;" src="~/web/images/gitson.fw.png" alt="Contact">
                     </a>
                     <br>
-                    <form method="get" action="@Url.Action("ChangeLanguage", "Home")" style="display: inline-block; margin: 0;">
-
-                        <select name="lang" onchange="this.form.submit()" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px 10px; font-size: 10px; cursor: pointer; background-color: #f9f9f9;">
-                            <option value="tr" @(currentLang == "tr" ? "selected" : "")>TÜRKÇE</option>
-                            <option value="en" @(currentLang == "en" ? "selected" : "")>ENGLISH</option>
-                            <!-- Diğer diller -->
-                        </select>
-                    </form>
                     <br>
                 </div>
                 <div class="clear"></div>
@@ -69,7 +62,7 @@
     <div class="header-bottom">
         <div class="wrap">
             <ul id="nav">
-                <li><a href="/Default/Index/">ANA SAYFA</a></li>
+                <li><a href="/Default/Index/">@Resources.Resources.Home</a></li>
                 <li>
                     <a class="hsubs" href="/About/Index/">HAKKIMIZDA</a>
                     <ul class="subs">
@@ -108,3 +101,32 @@
     </div>
 </body>
 </html>
+
+
+<script>
+    function changeLanguage(lang) {
+        // Mevcut URL'yi al
+        var currentUrl = window.location.pathname;
+
+        // URL'deki query string'i kontrol et
+        var queryString = window.location.search;
+        var urlParams = new URLSearchParams(queryString);
+        var currentLang = urlParams.get('lang');  // Mevcut dil parametresi
+
+        // Mevcut URL'nin başında '/tr' veya '/en' varsa, onları kaldır
+        var baseUrl = currentUrl.replace(/^\/(tr|en)\//, '/'); // tr veya en'i baştan kaldırır
+
+        // Yeni URL'yi oluştur: /[lang]/mevcut-yol
+        var newUrl = '/' + lang + baseUrl;
+
+        // Eğer query string'de zaten 'lang' parametresi varsa, onu da ekle
+        if (queryString) {
+            // 'lang' parametresini query string'e ekle
+            newUrl += '?lang=' + lang;
+        }
+
+        // Sayfayı yeni URL'ye yönlendir
+        window.location.href = newUrl;
+    }
+</script>
+

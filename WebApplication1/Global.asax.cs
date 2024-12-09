@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using Microsoft.AspNet.SignalR;
+using WebApplication1;
 
 namespace WebApplication1
 {
@@ -39,17 +40,23 @@ namespace WebApplication1
 			// Çünkü Hangfire dashboard kendi SignalR yapılandırmasını yönetir
 		}
 
-		protected void Application_BeginRequest()
+		protected void Application_BeginRequest(object sender, EventArgs e)
 		{
-			// Session nesnesi null olup olmadığını kontrol et
-			if (HttpContext.Current.Session != null)
+			var lang = HttpContext.Current.Request.RequestContext.RouteData.Values["lang"]?.ToString();
+
+			// Eğer dil parametresi yoksa, varsayılan olarak 'tr' dilini kullan
+			if (string.IsNullOrEmpty(lang))
 			{
-				var lang = (string)HttpContext.Current.Session["lang"];
-				if (lang != null)
-				{
-					System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(lang);
-					System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(lang);
-				}
+				lang = "tr";
+			}
+
+			var currentUrl = HttpContext.Current.Request.RawUrl;
+
+			// Eğer URL'nin başında dil parametresi yoksa, otomatik olarak ekle
+			if (!currentUrl.StartsWith("/" + lang))
+			{
+				var newUrl = "/" + lang + currentUrl;
+				HttpContext.Current.Response.Redirect(newUrl);
 			}
 		}
 	}

@@ -1,5 +1,7 @@
 ﻿using Hangfire;
 using System;
+using System.Globalization;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication1.Jobs;
@@ -35,30 +37,31 @@ namespace WebApplication1.Controllers
 			return Json(new { success = true, message = "Görev tetiklendi ve saat konsola yazıldı." });
 		}
 
-		public ActionResult ChangeLanguage(string lang)
+		public class BaseController : Controller
 		{
-			// Eğer lang parametresi null veya boş ise, varsayılan olarak Türkçe'yi seçiyoruz
-			if (string.IsNullOrEmpty(lang))
+			protected override void ExecuteCore()
 			{
-				lang = "tr"; // Türkçe'yi varsayılan dil olarak ayarlıyoruz
-			}
+				string cultureName = RouteData.Values["lang"] as string ?? "tr"; // Varsayılan: Türkçe
 
-			// Session kontrolü ve dil bilgisinin saklanması
-			if (Session != null)
-			{
-				Session["lang"] = lang; // Oturumda dil bilgisini saklayabilirsiniz
-			}
+				if (!string.IsNullOrEmpty(cultureName))
+				{
+					Thread.CurrentThread.CurrentCulture = new CultureInfo(cultureName);
+					Thread.CurrentThread.CurrentUICulture = new CultureInfo(cultureName);
+				}
 
-			// UrlReferrer kontrolü yaparak, kullanıcıyı geri yönlendirme
-			if (Request.UrlReferrer != null)
-			{
-				return Redirect(Request.UrlReferrer.ToString());  // Önceki sayfaya yönlendir
-			}
-			else
-			{
-				// Eğer UrlReferrer null ise, ana sayfaya yönlendirme yapılabilir
-				return RedirectToAction("Index", "Home");  // Ana sayfaya yönlendir
+				base.ExecuteCore();
 			}
 		}
+		public ActionResult ChangeLanguage(string lang)
+		{
+			if (!string.IsNullOrEmpty(lang))
+			{
+				HttpCookie langCookie = new HttpCookie("lang", lang);
+				langCookie.Expires = DateTime.Now.AddYears(1);
+				Response.Cookies.Add(langCookie);
+			}
+			return Redirect(Request.UrlReferrer.ToString());
+		}
+
 	}
 }

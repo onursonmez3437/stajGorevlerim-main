@@ -8,6 +8,7 @@ using System.Web.Routing;
 using Microsoft.AspNet.SignalR;
 using WebApplication1;
 
+
 namespace WebApplication1
 {
 	public class MvcApplication : System.Web.HttpApplication

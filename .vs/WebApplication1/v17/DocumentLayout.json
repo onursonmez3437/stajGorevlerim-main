@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\scripts\\jquery.validate-vsdoc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\scripts\\jquery.validate-vsdoc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\shared\\_testlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\shared\\_testlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\admin\\bloggetir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\admin\\bloggetir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\iletisim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\iletisim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\default\\encokbegendiklerim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\default\\encokbegendiklerim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\default\\partialstajdaogrendiklerim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\default\\partialstajdaogrendiklerim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\admin\\yeniblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\admin\\yeniblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,47 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "jquery.validate-vsdoc.js",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Scripts\\jquery.validate-vsdoc.js",
-              "RelativeDocumentMoniker": "WebApplication1\\Scripts\\jquery.validate-vsdoc.js",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Scripts\\jquery.validate-vsdoc.js",
-              "RelativeToolTip": "WebApplication1\\Scripts\\jquery.validate-vsdoc.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T17:56:50.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Global.asax.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Global.asax.cs",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Global.asax.cs",
-              "RelativeToolTip": "WebApplication1\\Global.asax.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:35:27.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "WebApplication1\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:12:42.88Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -116,106 +61,83 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Web.config",
-              "RelativeDocumentMoniker": "WebApplication1\\Web.config",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Web.config",
-              "RelativeToolTip": "WebApplication1\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-09T16:10:52.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnCokBegendiklerim.cshtml",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\EnCokBegendiklerim.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Default\\EnCokBegendiklerim.cshtml",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\EnCokBegendiklerim.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Default\\EnCokBegendiklerim.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T10:48:42.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PartialStajdaOgrendiklerim.cshtml",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\PartialStajdaOgrendiklerim.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Default\\PartialStajdaOgrendiklerim.cshtml",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\PartialStajdaOgrendiklerim.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Default\\PartialStajdaOgrendiklerim.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T10:48:17.433Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Default\\Index.cshtml",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T15:30:14.083Z",
+              "WhenOpened": "2024-12-11T20:34:01.741Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApplication1\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:12:42.88Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_TestLayout.cshtml",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwIMAAAAAAAAAAAAAAA==",
+              "Title": "BlogGetir.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\BlogGetir.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\BlogGetir.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\BlogGetir.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Admin\\BlogGetir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T13:15:13.515Z",
+              "WhenOpened": "2024-12-11T17:16:43.18Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YeniBlog.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\YeniBlog.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\YeniBlog.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\YeniBlog.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Admin\\YeniBlog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T15:53:22.964Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Iletisim\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Iletisim\\Index.cshtml",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Iletisim\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Iletisim\\Index.cshtml",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAAANkAAAA7AAAAAAAAAA==",
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T08:49:10.659Z",
+              "WhenOpened": "2024-12-11T13:24:55.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAawCcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:46:57.391Z",
+              "WhenOpened": "2024-12-11T13:24:25.089Z",
               "EditorCaption": ""
             }
           ]

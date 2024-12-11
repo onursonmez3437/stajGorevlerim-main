@@ -59,23 +59,5 @@ namespace WebApplication1.Resources {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Car.
-        /// </summary>
-        public static string Car {
-            get {
-                return ResourceManager.GetString("Car", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Greeting.
-        /// </summary>
-        public static string Greeting {
-            get {
-                return ResourceManager.GetString("Greeting", resourceCulture);
-            }
-        }
     }
 }

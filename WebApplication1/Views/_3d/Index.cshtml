@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Çift Avatar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .canvas-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .control-panel {
+            margin-bottom: 20px;
+        }
+
+        .avatar-controls {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>İki Avatar Oluştur</h1>
+
+    <div class="control-panel">
+        <div class="avatar-controls" id="controls1">
+            <h2>Avatar 1</h2>
+            <label>
+                Cinsiyet:
+                <select id="genderSelect1">
+                    <option value="male">Erkek</option>
+                    <option value="female">Kadın</option>
+                </select>
+            </label>
+            <label>
+                Boy (cm):
+                <input type="number" id="heightInput1" value="180" min="50" max="250">
+            </label>
+            <label>
+                Saç Rengi:
+                <input type="color" id="hairColorInput1" value="#000000">
+            </label>
+            <label>
+                Ten Rengi:
+                <input type="color" id="skinColorInput1" value="#ffcc99">
+            </label>
+        </div>
+
+        <div class="avatar-controls" id="controls2">
+            <h2>Avatar 2</h2>
+            <label>
+                Cinsiyet:
+                <select id="genderSelect2">
+                    <option value="male">Erkek</option>
+                    <option value="female">Kadın</option>
+                </select>
+            </label>
+            <label>
+                Boy (cm):
+                <input type="number" id="heightInput2" value="180" min="50" max="250">
+            </label>
+            <label>
+                Saç Rengi:
+                <input type="color" id="hairColorInput2" value="#000000">
+            </label>
+            <label>
+                Ten Rengi:
+                <input type="color" id="skinColorInput2" value="#ffcc99">
+            </label>
+        </div>
+    </div>
+
+    <div class="canvas-container">
+        <canvas id="canvas1" width="400" height="600"></canvas>
+        <canvas id="canvas2" width="400" height="600"></canvas>
+    </div>
+
+    <script>
+        function drawHuman(canvas, gender, height, hairColor, skinColor) {
+            const ctx = canvas.getContext("2d");
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const scale = height / 180;
+            const centerX = canvas.width / 2;
+
+            // Gövde
+            const bodyHeight = 150 * scale;
+            const bodyWidth = gender === "male" ? 60 * scale : 50 * scale;
+            ctx.fillStyle = gender === "male" ? "blue" : "pink";
+            ctx.fillRect(centerX - bodyWidth / 2, 200, bodyWidth, bodyHeight);
+
+            // Kafa
+            const headRadius = 40 * scale;
+            ctx.beginPath();
+            ctx.fillStyle = skinColor;
+            ctx.arc(centerX, 200 - headRadius, headRadius, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Saç
+            ctx.beginPath();
+            ctx.fillStyle = hairColor;
+            if (gender === "male") {
+                ctx.arc(centerX, 200 - headRadius - 10 * scale, headRadius, 0, Math.PI, true);
+            } else {
+                ctx.ellipse(centerX, 200 - headRadius - 10 * scale, headRadius * 1.2, headRadius, 0, 0, Math.PI, true);
+            }
+            ctx.fill();
+
+            // Gözler
+            const eyeRadius = 5 * scale;
+            ctx.beginPath();
+            ctx.fillStyle = "white";
+            ctx.arc(centerX - 15 * scale, 200 - headRadius + 10 * scale, eyeRadius, 0, Math.PI * 2);
+            ctx.arc(centerX + 15 * scale, 200 - headRadius + 10 * scale, eyeRadius, 0, Math.PI * 2);
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.fillStyle = "black";
+            ctx.arc(centerX - 15 * scale, 200 - headRadius + 10 * scale, 2 * scale, 0, Math.PI * 2);
+            ctx.arc(centerX + 15 * scale, 200 - headRadius + 10 * scale, 2 * scale, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Ağız
+            ctx.beginPath();
+            ctx.strokeStyle = "red";
+            ctx.lineWidth = 2 * scale;
+            ctx.arc(centerX, 200 - headRadius + 30 * scale, 15 * scale, 0, Math.PI, false);
+            ctx.stroke();
+
+            // Kollar
+            const armWidth = 40 * scale;
+            const armHeight = 120 * scale;
+            ctx.fillStyle = skinColor;
+            ctx.fillRect(centerX - bodyWidth / 2 - armWidth, 200 + 20 * scale, armWidth, armHeight);
+            ctx.fillRect(centerX + bodyWidth / 2, 200 + 20 * scale, armWidth, armHeight);
+
+            // Eller
+            const handRadius = 20 * scale;
+            ctx.beginPath();
+            ctx.fillStyle = skinColor;
+            ctx.arc(centerX - bodyWidth / 2 - armWidth / 2, 200 + 20 * scale + armHeight, handRadius, 0, Math.PI * 2);
+            ctx.arc(centerX + bodyWidth / 2 + armWidth / 2, 200 + 20 * scale + armHeight, handRadius, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Bacaklar ve etek
+            const legWidth = 20 * scale;
+            const legHeight = 120 * scale;
+
+            if (gender === "female") {
+                ctx.beginPath();
+                ctx.fillStyle = "pink";
+                ctx.moveTo(centerX - bodyWidth / 2, 200 + bodyHeight);
+                ctx.lineTo(centerX + bodyWidth / 2, 200 + bodyHeight);
+                ctx.lineTo(centerX, 200 + bodyHeight + 50 * scale);
+                ctx.fill();
+            } else {
+                ctx.fillStyle = "blue";
+                ctx.fillRect(centerX - 10 * scale - legWidth, 200 + bodyHeight, legWidth, legHeight);
+                ctx.fillRect(centerX + 10 * scale, 200 + bodyHeight, legWidth, legHeight);
+            }
+
+            // Ayaklar
+            const footWidth = 30 * scale;
+            const footHeight = 20 * scale;
+            ctx.fillStyle = "black";
+            ctx.fillRect(centerX - 10 * scale - legWidth - 5 * scale, 200 + bodyHeight + legHeight, footWidth, footHeight);
+            ctx.fillRect(centerX + 10 * scale - 5 * scale, 200 + bodyHeight + legHeight, footWidth, footHeight);
+        }
+
+        function updateCanvas(canvas, genderSelect, heightInput, hairColorInput, skinColorInput) {
+            drawHuman(canvas, genderSelect.value, heightInput.value, hairColorInput.value, skinColorInput.value);
+        }
+
+        // Avatar 1
+        const canvas1 = document.getElementById("canvas1");
+        const genderSelect1 = document.getElementById("genderSelect1");
+        const heightInput1 = document.getElementById("heightInput1");
+        const hairColorInput1 = document.getElementById("hairColorInput1");
+        const skinColorInput1 = document.getElementById("skinColorInput1");
+
+        genderSelect1.addEventListener("change", () => updateCanvas(canvas1, genderSelect1, heightInput1, hairColorInput1, skinColorInput1));
+        heightInput1.addEventListener("input", () => updateCanvas(canvas1, genderSelect1, heightInput1, hairColorInput1, skinColorInput1));
+        hairColorInput1.addEventListener("input", () => updateCanvas(canvas1, genderSelect1, heightInput1, hairColorInput1, skinColorInput1));
+        skinColorInput1.addEventListener("input", () => updateCanvas(canvas1, genderSelect1, heightInput1, hairColorInput1, skinColorInput1));
+
+        // Avatar 2
+        const canvas2 = document.getElementById("canvas2");
+        const genderSelect2 = document.getElementById("genderSelect2");
+        const heightInput2 = document.getElementById("heightInput2");
+        const hairColorInput2 = document.getElementById("hairColorInput2");
+        const skinColorInput2 = document.getElementById("skinColorInput2");
+
+        genderSelect2.addEventListener("change", () => updateCanvas(canvas2, genderSelect2, heightInput2, hairColorInput2, skinColorInput2));
+        heightInput2.addEventListener("input", () => updateCanvas(canvas2, genderSelect2, heightInput2, hairColorInput2, skinColorInput2));
+        hairColorInput2.addEventListener("input", () => updateCanvas(canvas2, genderSelect2, heightInput2, hairColorInput2, skinColorInput2));
+        skinColorInput2.addEventListener("input", () => updateCanvas(canvas2, genderSelect2, heightInput2, hairColorInput2, skinColorInput2));
+
+        // Başlangıç çizimi
+        updateCanvas(canvas1, genderSelect1, heightInput1, hairColorInput1, skinColorInput1);
+        updateCanvas(canvas2, genderSelect2, heightInput2, hairColorInput2, skinColorInput2);
+    </script>
+</body>
+</html>

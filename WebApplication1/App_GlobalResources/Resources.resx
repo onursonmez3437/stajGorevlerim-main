@@ -121,4 +121,35 @@
     <value>Home</value>
     <comment>Home</comment>
   </data>
+  <data name="ABOUTME" xml:space="preserve">
+    <value>ABOUT ME</value>
+    <comment>HAKKIMDA</comment>
+  </data>
+  <data name="WhatItIs" xml:space="preserve">
+    <value>WhatItIs</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>ContactUs</value>
+  </data>
+  <data name="HomePageWelcomeMessage" xml:space="preserve">
+    <value>HomePageWelcomeMessage</value>
+  </data>
+  <data name="StajdaÖğrendiklerimİlkParagraf" xml:space="preserve">
+    <value>StajdaÖğrendiklerimİlkParagraf</value>
+  </data>
+  <data name="StajdaÖğrendiklerimİkinciParagraf" xml:space="preserve">
+    <value>StajdaÖğrendiklerimİkinciParagraf</value>
+  </data>
+  <data name="StajdaÖğrendiklerimÜcüncüParagraf" xml:space="preserve">
+    <value>StajdaÖğrendiklerimÜcüncüParagraf</value>
+  </data>
+  <data name="StajdaÖğrendiklerimDördüncüParagraf" xml:space="preserve">
+    <value>StajdaÖğrendiklerimDördüncüParagraf</value>
+  </data>
+  <data name="StajdaÖğrendiklerimBesinciParagraf" xml:space="preserve">
+    <value>StajdaÖğrendiklerimBesinciParagraf</value>
+  </data>
+  <data name="StajdaÖğrendiklerimAltıncıParagraf" xml:space="preserve">
+    <value>StajdaÖğrendiklerimAltıncıParagraf</value>
+  </data>
 </root>

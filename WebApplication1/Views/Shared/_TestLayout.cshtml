@@ -7,6 +7,9 @@
 <html>
 <head>
     <style>
+        #nav li:first-child {
+            margin-left: 20px; /* İstediğiniz kadar sağa kaydırabilirsiniz */
+        }
         .grid1-l-desc {
             text-align: right; /* Tüm içeriği sağa yaslar */
         }
@@ -62,16 +65,17 @@
     <div class="header-bottom">
         <div class="wrap">
             <ul id="nav">
-                <li><a href="/Default/Index/">@Resources.Resources.Home</a></li>
+                <li style="margin-left: 100px;">
+                    <a href="/Default/Index/">@Resources.Resources.Home</a>
+                </li>
                 <li>
-                    <a class="hsubs" href="/About/Index/">HAKKIMIZDA</a>
+                    <a class="hsubs" href="/About/Index/">@Resources.Resources.ABOUTME</a>
                     <ul class="subs">
                         <li><a href="/About/Index/">CHATGBT NİN BİLGİLERİ</a></li>
                         <li><a href="/Blog/Index/">Blogum</a></li>
                         <li><a href="#">GÜZEL ANILARIMIZ</a></li>
                     </ul>
                 </li>
-
                 <li>
                     <a class="hsubs" href="#">NEDİR</a>
                     <ul class="subs">
@@ -84,6 +88,7 @@
             </ul>
         </div>
     </div>
+
     <div class="header-banner">
         <div class="wrap">
             <div class="clear"></div>

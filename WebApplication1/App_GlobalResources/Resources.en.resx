@@ -118,6 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Home" xml:space="preserve">
-    <value>Home</value>
+    <value>HOME</value>
+  </data>
+  <data name="ABOUTME" xml:space="preserve">
+    <value>ABOUT ME</value>
+  </data>
+  <data name="WhatItIs" xml:space="preserve">
+    <value>WHAT IT IS</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>CONTACT US</value>
+  </data>
+  <data name="HomePageWelcomeMessage" xml:space="preserve">
+    <value>WELCOME TO MY INTERNSHIP BLOG</value>
+  </data>
+  <data name="StajdaÖğrendiklerimİlkParagraf" xml:space="preserve">
+    <value>During this internship, I had the opportunity to learn and experience many new technologies in the software world. During my work, I mainly used &lt;strongg&gt;ASP.NET Core&lt;/strongg&gt; technology and learned how to develop web applications efficiently with this framework.</value>
+  </data>
+  <data name="StajdaÖğrendiklerimİkinciParagraf" xml:space="preserve">
+    <value>I also learned how to use &lt;strongg&gt;Git&lt;/strongg&gt; in version control systems to manage code more effectively in a team environment. In the process, I mastered Git commands such as versioning, creating branches, merging, and resolving issues.</value>
+  </data>
+  <data name="StajdaÖğrendiklerimÜcüncüParagraf" xml:space="preserve">
+    <value>I also had the chance to improve myself in web technologies such as &lt;strongg&gt;HTML&lt;/strongg&gt;, &lt;strongg&gt;CSS&lt;/strongg&gt;, &lt;strongg&gt;JavaScript&lt;/strongg&gt; and &lt;strongg&gt;jQuery&lt;/strongg&gt;.
+</value>
+  </data>
+  <data name="StajdaÖğrendiklerimDördüncüParagraf" xml:space="preserve">
+    <value> Specifically: I worked on &lt;strongg&gt;HTML and CSS&lt;/strongg&gt; to create user-friendly and modern designs.
+ I improved my skills in JavaScript to develop dynamic and interactive web pages.
+ I used the &lt;strongg&gt;jQuery&lt;/strongg&gt; library to create faster and more practical solutions.
+</value>
+  </data>
+  <data name="StajdaÖğrendiklerimBesinciParagraf" xml:space="preserve">
+    <value>This internship not only provided me with technical skills, but also strengthened my problem-solving ability and my role in teamwork. I look forward to utilizing these gains in my future roles ✨</value>
+  </data>
+  <data name="StajdaÖğrendiklerimAltıncıParagraf" xml:space="preserve">
+    <value>&lt;strongg&gt;Thank you PHOTIER for giving me this opportunity and for all your help 🙏❤️ &lt;/strongg&gt;</value>
   </data>
 </root>

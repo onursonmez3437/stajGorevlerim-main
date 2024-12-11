@@ -241,11 +241,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.tr.resx</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\APController.cs" />
     <Compile Include="Controllers\APIController.cs" />
     <Compile Include="Controllers\CDN_Controller.cs" />
     <Compile Include="Controllers\DenemeController.cs" />
     <Compile Include="Controllers\IletisimController.cs" />
+    <Compile Include="Controllers\_3dController.cs" />
     <Compile Include="Jobs\DownloadJob.cs" />
     <Compile Include="Models\siniflar\Nedir.cs" />
     <Compile Include="Program.cs" />
@@ -427,6 +429,11 @@
     <Content Include="Views\Default\Dusuncelerim.cshtml" />
     <Content Include="Views\Iletisim\Index.cshtml" />
     <Content Include="Views\Deneme\Index.cshtml" />
+    <Content Include="Views\_3d\Index.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Admin\YeniBlog.cshtml" />
+    <Content Include="Views\Admin\BlogGetir.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

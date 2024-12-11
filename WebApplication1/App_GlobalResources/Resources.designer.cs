@@ -61,11 +61,105 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ABOUT ME.
+        /// </summary>
+        internal static string ABOUTME {
+            get {
+                return ResourceManager.GetString("ABOUTME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ContactUs.
+        /// </summary>
+        internal static string ContactUs {
+            get {
+                return ResourceManager.GetString("ContactUs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         internal static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HomePageWelcomeMessage.
+        /// </summary>
+        internal static string HomePageWelcomeMessage {
+            get {
+                return ResourceManager.GetString("HomePageWelcomeMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StajdaÖğrendiklerimAltıncıParagraf.
+        /// </summary>
+        internal static string StajdaOgrendiklerimAlt�nc�Paragraf {
+            get {
+                return ResourceManager.GetString("StajdaOgrendiklerimAlt�nc�Paragraf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StajdaÖğrendiklerimBesinciParagraf.
+        /// </summary>
+        internal static string StajdaOgrendiklerimBesinciParagraf
+		{
+            get {
+                return ResourceManager.GetString("StajdaOgrendiklerimBesinciParagraf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StajdaÖğrendiklerimDördüncüParagraf.
+        /// </summary>
+        internal static string StajdaOgrendiklerimDorduncuParagraf {
+            get {
+                return ResourceManager.GetString("StajdaOgrendiklerimDorduncuParagraf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StajdaÖğrendiklerimÜcüncüParagraf.
+        /// </summary>
+        internal static string StajdaOgrendiklerimUcuncuParagraf
+		{
+            get {
+                return ResourceManager.GetString("StajdaOgrendiklerimUcuncuParagraf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StajdaÖğrendiklerimİkinciParagraf.
+        /// </summary>
+        internal static string StajdaOgrendiklerimIk�nc�Paragraf
+		{
+            get {
+                return ResourceManager.GetString("StajdaOgrendiklerimIk�nc�Paragraf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StajdaÖğrendiklerimİlkParagraf.
+        /// </summary>
+        internal static string StajdaOgrendiklerimIlkParagraf
+		{
+            get {
+                return ResourceManager.GetString("StajdaOgrendiklerimIlkParagraf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WhatItIs.
+        /// </summary>
+        internal static string WhatItIs {
+            get {
+                return ResourceManager.GetString("WhatItIs", resourceCulture);
             }
         }
     }

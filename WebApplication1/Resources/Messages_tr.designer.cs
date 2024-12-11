@@ -59,23 +59,5 @@ namespace Resources {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Araba.
-        /// </summary>
-        internal static string Car {
-            get {
-                return ResourceManager.GetString("Car", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Merhaba.
-        /// </summary>
-        internal static string Greeting {
-            get {
-                return ResourceManager.GetString("Greeting", resourceCulture);
-            }
-        }
     }
 }

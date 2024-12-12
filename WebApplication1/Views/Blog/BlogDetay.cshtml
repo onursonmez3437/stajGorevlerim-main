@@ -50,16 +50,7 @@
                         </li>
                     </ul>
                 }
-                <div class="content-form">
-                    <h3>BİR YORUM YAPIN</h3>
-                    <form>
-                        <input type="text" placeholder="Kullanıcı adı" required />
-                        <input type="text" placeholder="Email" required />
-                        <input type="text" placeholder="Yorum" required />
-                        <textarea placeholder="Yorum"></textarea>
-                        <input type="submit" value="Gönder" />
-                    </form>
-                </div>
+                @Html.Action("YorumYap","Blog");
             </div>
             <div class="col-md-4 side-content">
                 <div class="recent">

@@ -1,0 +1,16 @@
+﻿<div class="content-form">
+    <h3>BİR YORUM YAPIN</h3>
+    
+    <form method="post">
+        <input type="text" placeholder="ID" name="Blogid" value="@ViewBag.deger" />
+        <input type="text" placeholder="Kullanıcı adı" name="KullaniciAdi" required />
+        <input type="text" placeholder="Email" name="Mail" required />
+        <textarea placeholder="Yorum" name="Yorum"></textarea>
+        <input type="submit" value="Gönder" />
+    </form>
+</div>
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>

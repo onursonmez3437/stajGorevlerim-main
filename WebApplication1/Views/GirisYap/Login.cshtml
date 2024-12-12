@@ -1,0 +1,71 @@
+﻿
+@{
+    Layout = null;
+}
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<head>
+    <title> Master login Form Responsive Widget Template  :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content=" Master  Login Form Widget Tab Form,Login Forms,Sign up Forms,Registration Forms,News letter Forms,Elements" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="~/weblogin Tema/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fonts.googleapis.com/css?family=Cormorant+SC:300,400,500,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+<style>
+    .footer a i {
+        color: white; /* İkonların rengini beyaz yapar */
+        font-size: 30px; /* İkonların boyutunu ayarlar */
+    }
+
+        .footer a i:hover {
+            color: #cccccc; /* Üzerine gelindiğinde griye döner */
+        }
+
+    .footer a {
+        text-decoration: none; /* Alt çizgiyi kaldırır */
+    }
+</style>
+
+<body>
+    <div class="padding-all">
+        <div class="header">
+            <h1>ADMİN PANELİNE HOŞGELDİNİZ</h1>
+        </div>
+
+        <div class="design-w3l">
+            <div class="mail-form-agile">
+                <form action="#" method="post">
+                    @using (Html.BeginForm("Login", "GirisYap", FormMethod.Post))
+                    {
+                        <input type="text" name="Mail" placeholder="Kullanıcı Adınız" required="" />
+                        <input type="password" name="Konu" class="padding" placeholder="Sifre" required="" />
+                        <input type="submit" value="Giriş Yap">
+                    }
+
+                </form>
+            </div>
+            <div class="clear"> </div>
+        </div>
+
+        <div class="footer">
+            <p>ONUR SÖNMEZ</p>
+            <a href="https://www.linkedin.com/in/onursonmez37/" target="_blank" title="LinkedIn Profili">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/onursonmez3437" target="_blank" title="GitHub Profili" class="github">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

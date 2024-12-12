@@ -4,26 +4,47 @@
         ViewBag.Title = "Index";
         Layout = "~/Views/Shared/_AdminLayout.cshtml";
     }
-    <h2>Blog Listesi</h2>
-    <br />
-    <table class="table table-bordered">
-        <tr>
-            <th>ID </th>
-            <th>BASLIK </th>
-            <th>SİL</th>
-            <th>GÜNCELLE</th>
-            <th>DETAYLAR</th>
-        </tr>
-        @foreach (var x in Model)
-        {
-            <tr>
-                <td>@x.ID</td>
-                <td>@x.Aciklama</td>
-                <td><a href="/Admin/BlogSil/@x.ID" class="btn btn-danger">Sil</a></td>
-                <td><a href="/Admin/BlogGetir/@x.ID" class="btn btn-success">Güncelle</a></td>
-                <td><a href="#" class="btn btn-warning">Detaylar</a></td>
-            </tr>
-
-        }
-    </table>
-<a href="/Admin/YeniBlog" class="btn btn-primary">Yeni Blog Oluştur</a>
+    <div class="container mt-4">
+        <h2 class="text-center">Blog Listesi</h2>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped align-middle">
+                <thead class="table-success">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">İçerik</th>
+                        <th scope="col">Resim</th>
+                        <th scope="col">Sil</th>
+                        <th scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model)
+                    {
+                        <tr>
+                            <td>@x.ID</td>
+                            <td>@x.Aciklama</td>
+                            <td>
+                                <img src="@x.BlogImage" alt="Blog Resmi" class="img-thumbnail" style="max-height: 100px;" />
+                            </td>
+                            <td>
+                                <a href="/Admin/BlogSil/@x.ID" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash-alt"></i> Sil
+                                </a>
+                            </td>
+                            <td>
+                                <a href="/Admin/BlogGetir/@x.ID" class="btn btn-success btn-sm">
+                                    <i class="fas fa-edit"></i> Güncelle
+                                </a>
+                            </td>
+                            
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="text-end mt-3">
+            <a href="/Admin/YeniBlog" class="btn btn-primary btn-lg">
+                <i class="fas fa-plus"></i> Yeni Blog Oluştur
+            </a>
+        </div>
+    </div>

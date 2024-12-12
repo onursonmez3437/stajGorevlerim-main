@@ -7,12 +7,10 @@
 <h2>Blog Güncelleme Sayfası</h2>
 <br />
 
-@if (Model != null)
-{
-    using (Html.BeginForm("BlogGüncelle", "Admin", FormMethod.Post)) 
+    @using (Html.BeginForm("BlogGüncelle", "Admin", FormMethod.Post))
     {
         @Html.LabelFor(x => x.ID)
-        @Html.TextBoxFor(x => x.Baslik, new { @class = "form-control" , @readonly="readonly" })
+        @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "readonly" })
         <br />
 
         @Html.LabelFor(x => x.Baslik)
@@ -29,12 +27,7 @@
 
         @Html.LabelFor(x => x.Aciklama)
         @Html.TextAreaFor(x => x.Aciklama, 12, 1, new { @class = "form-control" })
+
         <br />
         <button class="btn btn-outline-success"> Blog'a Güncelle</button>
     }
-}
-else
-{
-    <p>Gösterilecek veri bulunamadı.</p>
-}
-

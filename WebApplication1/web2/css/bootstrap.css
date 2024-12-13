@@ -2080,11 +2080,15 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #1B242F;
-  border-color: #357ebd;
+    color: #FFFFFF; /* Metin rengi beyaz */
+    background-color: #4A90E2; /* Açýk mavi tonunda bir arka plan */
+    border-color: #4178A4; /* Daha koyu bir mavi tonunda kenarlýk */
+    width:60px;
 }
-.btn-primary:hover,
+    .btn-primary:hover {
+        background-color: #4178A4; /* Hover durumunda koyulaþan bir mavi */
+        border-color: #365F8A; /* Kenarlýk daha da koyu */
+    }
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,

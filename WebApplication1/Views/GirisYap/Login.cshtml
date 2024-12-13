@@ -1,13 +1,6 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -20,21 +13,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="~/weblogin Tema/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="//fonts.googleapis.com/css?family=Cormorant+SC:300,400,500,600,700" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-</head>
-<style>
-    .footer a i {
-        color: white; /* İkonların rengini beyaz yapar */
-        font-size: 30px; /* İkonların boyutunu ayarlar */
-    }
+    <style>
+        .common-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            letter-spacing: 1.2px;
+            border: none;
+            text-transform: capitalize;
+            outline: none;
+            background: #03A9F4;
+            color: #fff;
+            cursor: pointer;
+            margin: 10px auto; /* Butonlar arasında mesafe ekler */
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none; /* Linklerdeki alt çizgiyi kaldırır */
+            display: inline-block; /* Buton şeklinde görünmesini sağlar */
+        }
+
+        .common-button:hover {
+            background: #0288D1; /* Hover efekti için farklı renk */
+        }
+
+        .footer a i {
+            color: white; /* İkonların rengini beyaz yapar */
+            font-size: 30px; /* İkonların boyutunu ayarlar */
+        }
 
         .footer a i:hover {
             color: #cccccc; /* Üzerine gelindiğinde griye döner */
         }
 
-    .footer a {
-        text-decoration: none; /* Alt çizgiyi kaldırır */
-    }
-</style>
+        .footer a {
+            text-decoration: none; /* Alt çizgiyi kaldırır */
+        }
+    </style>
+</head>
 
 <body>
     <div class="padding-all">
@@ -44,15 +57,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
         <div class="design-w3l">
             <div class="mail-form-agile">
-                <form action="#" method="post">
-                    @using (Html.BeginForm("Login", "GirisYap", FormMethod.Post))
-                    {
-                        <input type="text" name="Mail" placeholder="Kullanıcı Adınız" required="" />
-                        <input type="password" name="Konu" class="padding" placeholder="Sifre" required="" />
-                        <input type="submit" value="Giriş Yap">
-                    }
+                @using (Html.BeginForm("Login", "GirisYap", FormMethod.Post))
+                {
+                    <input type="text" name="Mail" placeholder="Kullanıcı Adınız" required="" />
+                    <input type="password" name="Konu" class="padding" placeholder="Şifre" required="" />
+                    <input type="submit" value="Giriş Yap" class="common-button" />
 
-                </form>
+                    <a href="/Default/Index/" class="common-button">Siteye Dön</a>
+                }
             </div>
             <div class="clear"> </div>
         </div>

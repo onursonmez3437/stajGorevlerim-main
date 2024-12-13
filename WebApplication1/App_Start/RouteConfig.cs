@@ -20,12 +20,12 @@ namespace WebApplication1
 				constraints: new { lang = "tr|en" } // Sadece Türkçe ve İngilizce
 			);
 
-			// Dil parametresi olmadan gelen istekler için rota
 			routes.MapRoute(
-				name: "Default",
-				url: "{controller}/{action}/{id}",
-				defaults: new { lang = "tr", controller = "Home", action = "Index", id = UrlParameter.Optional }
-			);
+	name: "Default",
+	url: "{controller}/{action}/{id}",
+	defaults: new { controller = "Default", action = "Index", id = UrlParameter.Optional }
+);
+
 		}
 	}
 }

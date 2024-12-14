@@ -3,6 +3,98 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
+<!DOCTYPE HTML>
+<html>
+<body>
+    <style>
+        strongg {
+            font-weight: bold;
+        }
 
-<h2 style="text-align: center;">BU SAYFA WEB-200 GÖREVİNİN NASIL YAPILDIĞINI ANLATICAK</h2>
+        strong {
+            font-weight: bold;
+        }
+    </style>
+    <style>
+        /* Resimlere yazıyı eklemek için ortak stil */
+        .rslides li {
+            position: relative;
+        }
+
+        /* Yazıyı resmin alt kısmına ve ortalayarak yerleştir */
+        .image-text {
+            position: absolute;
+            bottom: 10px; /* Yazıyı resmin altına yerleştir */
+            left: 50%; /* Yatayda ortalar */
+            transform: translateX(-50%); /* Yatayda tam ortalamak için */
+            color: white;
+            font-size: 24px;
+            background-color: rgba(139,10, 80, 0.8); /* Pembe arka plan rengi */
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+
+        /* Resmin üzerine gelindiğinde yazının görünmesini sağlamak */
+        .rslides li a:hover .image-text {
+            display: block;
+        }
+    </style>
+    <div class="header-banner">
+        <div class="wrap">
+            <div class="banner">
+                <h2 class="indent-left margin-bot" style="letter-spacing: 0.2em; text-align: center;">WEB-200 YAPTIKLARIM</h2>
+                <div class="header_bottom_right_images" style="margin-left: 130px;">
+                    <div class="slider">
+                        <ul class="rslides" id="slider1">
+                            <li style="position: relative;">
+                                <a href="/Lokalizasyon/Index/">
+                                    <img src="~/web/images/imgd.jpg" style="width: 750px; height: 430px;">
+                                    <span class="image-text">LOKALİZASYON GÖREVİ</span>
+                                </a>
+                            </li>
+                            <li style="position: relative;">
+                                <a href="/Autocomplate/Index">
+                                    <img src="~/web/images/imga.jpg" style="width: 750px; height: 430px;">
+                                    <span class="image-text">AUTOCOMPLATE GÖREVİ</span>
+                                </a>
+                            </li>
+                            <li style="position: relative;">
+                                <a href="/WEB_200/Index/">
+                                    <img src="~/web/images/imgb.jpg" style="width: 750px; height: 430px;">
+                                    <span class="image-text">WEB-200 GÖREVİ</span>
+                                </a>
+                            </li>
+                            <li style="position: relative;">
+                                <a href="/Hangfire/Index/">
+                                    <img src="~/web/images/imgc.jpg" style="width: 750px; height: 430px;">
+                                    <span class="image-text">HANGFİRE GÖREVİ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    </div>
+    <div class"content">
+        <div class="wrap">
+            <div class="wrapper">
+                @Html.Action("PartialStajdaOgrendiklerim", "Default")
+                <div class="grids">
+                    <div class="box1">
+                        @Html.Action("EnCokBegendiklerim", "Default")
+                        @Html.Action("Dusuncelerim", "Default")
+                        <div class="clear"></div>@* burası silinirse alt kısımlar kırmızı gözüküyor silme !!*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
 

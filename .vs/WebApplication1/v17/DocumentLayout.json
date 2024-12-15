@@ -3,23 +3,43 @@
   "WorkspaceRootPath": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\web_200\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\web_200\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\lokalizasyon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\lokalizasyon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\web\\css\\slider.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\web_200\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\web_200\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\lokalizasyon\\changelanguage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\lokalizasyon\\changelanguage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\blog\\yorumyap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\blog\\yorumyap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\blog\\blogdetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\blog\\blogdetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\web\\css\\slider.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\web\\css\\slider.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\web\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\web\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\web\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|d:\\masa\u00FCst\u00FC\\stajgorevlerim-main\\webapplication1\\views\\shared\\_testlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\shared\\_testlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\shared\\_testlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -37,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\controllers\\girisyapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\controllers\\girisyapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\blog\\yorumyap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\blog\\yorumyap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\admin\\yorumgetir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\admin\\yorumlistesi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\views\\blog\\blogdetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\views\\blog\\blogdetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\webapplication1\\models\\siniflar\\yorumlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B448FB00-BA18-42B7-B61A-1337470D1152}|WebApplication1\\TravelTipProje.csproj|solutionrelative:webapplication1\\models\\siniflar\\yorumlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -98,38 +110,12 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 241,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "slider.css",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\slider.css",
-              "RelativeDocumentMoniker": "WebApplication1\\web\\css\\slider.css",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\slider.css",
-              "RelativeToolTip": "WebApplication1\\web\\css\\slider.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-14T19:57:58.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\style.css",
-              "RelativeDocumentMoniker": "WebApplication1\\web\\css\\style.css",
-              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\style.css",
-              "RelativeToolTip": "WebApplication1\\web\\css\\style.css",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAMwJMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-14T19:23:32.378Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -159,6 +145,71 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangeLanguage.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Lokalizasyon\\ChangeLanguage.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Lokalizasyon\\ChangeLanguage.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Lokalizasyon\\ChangeLanguage.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Lokalizasyon\\ChangeLanguage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T18:05:04.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Lokalizasyon\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Lokalizasyon\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Lokalizasyon\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Lokalizasyon\\Index.cshtml",
+              "ViewState": "AgIAABYCAAAAAAAAAAAowCgCAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T18:05:03.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T11:37:27.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "slider.css",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\slider.css",
+              "RelativeDocumentMoniker": "WebApplication1\\web\\css\\slider.css",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\slider.css",
+              "RelativeToolTip": "WebApplication1\\web\\css\\slider.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T19:57:58.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApplication1\\web\\css\\style.css",
+              "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web\\css\\style.css",
+              "RelativeToolTip": "WebApplication1\\web\\css\\style.css",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAMwJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T19:23:32.378Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
@@ -166,31 +217,26 @@
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Default\\Index.cshtml",
               "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Default\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAUwJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-14T19:25:11.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\WEB_200\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\WEB_200\\Index.cshtml",
               "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\WEB_200\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\WEB_200\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T19:24:08.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "WhenOpened": "2024-12-14T19:24:08.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "_TestLayout.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
@@ -198,12 +244,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_TestLayout.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAUwDgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T10:57:25.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T10:57:25.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Global.asax.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Global.asax.cs",
@@ -215,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "WebApplication1\\App_Start\\RouteConfig.cs",
@@ -227,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "DefaultController.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\DefaultController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DefaultController.cs",
@@ -239,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "_3dController.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\_3dController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\_3dController.cs",
@@ -251,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "bootstrap.css",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\web2\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "WebApplication1\\web2\\css\\bootstrap.css",
@@ -263,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Web.config",
               "RelativeDocumentMoniker": "WebApplication1\\Web.config",
@@ -276,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\GirisYap\\Login.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\GirisYap\\Login.cshtml",
@@ -288,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "GirisYapController.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\GirisYapController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\GirisYapController.cs",
@@ -300,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "YorumGetir.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\YorumGetir.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\YorumGetir.cshtml",
@@ -312,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Yorumlar.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Models\\siniflar\\Yorumlar.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\siniflar\\Yorumlar.cs",
@@ -324,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "YorumListesi.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\YorumListesi.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\YorumListesi.cshtml",
@@ -336,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "YorumYap.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Blog\\YorumYap.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Blog\\YorumYap.cshtml",
@@ -348,19 +393,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
               "Title": "BlogDetay.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Blog\\BlogDetay.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Blog\\BlogDetay.cshtml",
               "ToolTip": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Blog\\BlogDetay.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Blog\\BlogDetay.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-12T07:41:34.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "BlogController.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BlogController.cs",
@@ -372,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "BlogGetir.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\BlogGetir.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\BlogGetir.cshtml",
@@ -384,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "YeniBlog.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Admin\\YeniBlog.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\YeniBlog.cshtml",
@@ -396,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_AdminLayout.cshtml",
@@ -408,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\masa\u00FCst\u00FC\\stajGorevlerim-main\\WebApplication1\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AdminController.cs",

@@ -1,100 +1,178 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
 <!DOCTYPE HTML>
 <html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
 <body>
+    <div class="main-container">
+        <!-- Sol Kart Bloğu -->
+        <div class="card-container" style="margin-left:140px;">
+            <div class="card">
+                <span class="icon" style="background-color: brown;">👨‍👩‍👧‍👦</span>
+                <div class="info">
+                    <span class="title">Kaç Yüz Bulundu?</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: lightskyblue;">🏷️</span>
+                <div class="info">
+                    <span class="title">Kaç Fotoğraf Etiketlendi</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: hotpink;">👩‍🦰</span>
+                <div class="info">
+                    <span class="title">Kadın Kullanıcı Sayısı</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: mediumspringgreen;">👨</span>
+                <div class="info">
+                    <span class="title">Erkek Kullanıcı Sayısı</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: chocolate;">🍏</span>
+                <div class="info">
+                    <span class="title">iOS Kullanıcı Sayısı</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: lightslategrey;">📱</span>
+                <div class="info">
+                    <span class="title">Android Kullanıcı Sayısı</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağ Kart Bloğu -->
+        <div class="card-container" style="margin-right:140px;">
+            <div class="card">
+                <span class="icon" style="background-color: lightpink;">🛒</span>
+                <div class="info">
+                    <span class="title">Toplam Fotoğraf Sepete Eklendi</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: green;">💷</span>
+                <div class="info">
+                    <span class="title">Satın Alınan Toplam Fotoğraf</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: hotpink;">💰</span>
+                <div class="info">
+                    <span class="title">Toplam Gelir</span>
+                    <span class="value">$0.0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: mediumspringgreen;">💶</span>
+                <div class="info">
+                    <span class="title">Apple ve Google'a Ücretli Paylaşım</span>
+                    <span class="value">$0.0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: chocolate;">💼</span>
+                <div class="info">
+                    <span class="title">Şirket Komisyonu</span>
+                    <span class="value">$0.0</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="icon" style="background-color: lightskyblue;">📸</span>
+                <div class="info">
+                    <span class="title">Fotoğrafçıya Kalan</span>
+                    <span class="value">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <style>
-        strongg {
-            font-weight: bold;
+        /* Genel Stil */
+        .main-container {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            margin: 20px;
         }
 
-        strong {
-            font-weight: bold;
-        }
-    </style>
-    <style>
-        /* Resimlere yazıyı eklemek için ortak stil */
-        .rslides li {
-            position: relative;
+        .card-container {
+            display: flex;
+            width: 550px;
+            height: 470px;
+            flex-direction: column;
+            gap: 15px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        /* Yazıyı resmin alt kısmına ve ortalayarak yerleştir */
-        .image-text {
-            position: absolute;
-            bottom: 10px; /* Yazıyı resmin altına yerleştir */
-            left: 50%; /* Yatayda ortalar */
-            transform: translateX(-50%); /* Yatayda tam ortalamak için */
-            color: white;
+        .card {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px 15px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            }
+
+        .icon {
             font-size: 24px;
-            background-color: rgba(139,10, 80, 0.8); /* Pembe arka plan rengi */
-            padding: 10px;
-            border-radius: 5px;
-            display: none;
+            margin-right: 15px;
+            width: 40px; /* Sabit genişlik */
+            height: 40px; /* Sabit yükseklik */
+            display: flex; /* İçeriği ortalamak için */
+            align-items: center; /* Dikey ortalama */
+            justify-content: center; /* Yatay ortalama */
+            border-radius: 50%; /* İkonları yuvarlak yapmak istersen */
+            background-color: rgba(0, 0, 0, 0.05); /* Hafif arka plan rengi */
         }
 
-        /* Resmin üzerine gelindiğinde yazının görünmesini sağlamak */
-        .rslides li a:hover .image-text {
-            display: block;
+        .info {
+            display: flex;
+            justify-content: space-between; /* Başlık ve değeri sağa sola hizalar */
+            width: 100%; /* Card alanının genişliğini alır */
+        }
+
+        .title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .value {
+            font-size: 16px;
+            color: #000;
         }
     </style>
-    <div class="header-banner">
-        <div class="wrap">
-            <div class="banner">
-                <h2 class="indent-left margin-bot" style="letter-spacing: 0.2em; text-align: center;">WEB-200 YAPTIKLARIM</h2>
-                <div class="header_bottom_right_images" style="margin-left: 130px;">
-                    <div class="slider">
-                        <ul class="rslides" id="slider1">
-                            <li style="position: relative;">
-                                <a href="/Lokalizasyon/Index/">
-                                    <img src="~/web/images/imgd.jpg" style="width: 750px; height: 430px;">
-                                    <span class="image-text">LOKALİZASYON GÖREVİ</span>
-                                </a>
-                            </li>
-                            <li style="position: relative;">
-                                <a href="/Autocomplate/Index">
-                                    <img src="~/web/images/imga.jpg" style="width: 750px; height: 430px;">
-                                    <span class="image-text">AUTOCOMPLATE GÖREVİ</span>
-                                </a>
-                            </li>
-                            <li style="position: relative;">
-                                <a href="/WEB_200/Index/">
-                                    <img src="~/web/images/imgb.jpg" style="width: 750px; height: 430px;">
-                                    <span class="image-text">WEB-200 GÖREVİ</span>
-                                </a>
-                            </li>
-                            <li style="position: relative;">
-                                <a href="/Hangfire/Index/">
-                                    <img src="~/web/images/imgc.jpg" style="width: 750px; height: 430px;">
-                                    <span class="image-text">HANGFİRE GÖREVİ</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </div>
-    </div>
-    <div class"content">
-        <div class="wrap">
-            <div class="wrapper">
-                @Html.Action("PartialStajdaOgrendiklerim", "Default")
-                <div class="grids">
-                    <div class="box1">
-                        @Html.Action("EnCokBegendiklerim", "Default")
-                        @Html.Action("Dusuncelerim", "Default")
-                        <div class="clear"></div>@* burası silinirse alt kısımlar kırmızı gözüküyor silme !!*@
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </body>
 </html>
+
+
+
 
 

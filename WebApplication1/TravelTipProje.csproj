@@ -321,6 +321,16 @@
     <Content Include="images\NewProject.jpg" />
     <Content Include="images\PlaceAPI.jpg" />
     <Content Include="images\SiteyeYerleştirme.jpg" />
+    <Content Include="ProjeSayfaları\admin_paneli.png" />
+    <Content Include="ProjeSayfaları\admin_paneli_bloglar.png" />
+    <Content Include="ProjeSayfaları\admin_paneli_yorumlar.png" />
+    <Content Include="ProjeSayfaları\anasayfa.png" />
+    <Content Include="ProjeSayfaları\anasayfa_partialview.png" />
+    <Content Include="ProjeSayfaları\API.png" />
+    <Content Include="ProjeSayfaları\autocomplate1.png" />
+    <Content Include="ProjeSayfaları\autocomplate2.png" />
+    <Content Include="ProjeSayfaları\iletisim.png" />
+    <Content Include="ProjeSayfaları\web-200.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

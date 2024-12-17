@@ -13,7 +13,7 @@
 > **Açıklama:** Ana sayfa, kullanıcılara sliderlarla birlikte görevleri göstermiş olduğum anasayfa ekranım.
 ### 1️⃣.1️⃣ Ana Sayfa Partial View Kısmı
 ![Ana Sayfa](https://github.com/onursonmez3437/stajGorevlerim-main/blob/main/WebApplication1/images/anasayfa_partialview.png)
-> **Açıklama:** Ana sayfanın alt kısmı, kullanıcılara partialviewlerle birlikte görevleri göstermiş olduğum anasayfa ekranım.
+> **Açıklama:** Ana sayfanın alt kısmı, kullanıcılara partialviewlerle birlikte görevleri kendi düşüncelerimi aktardığım bölüm
 
 ### 2️⃣ Google Autocomplate API
 ![Kullanıcı Profili](https://github.com/onursonmez3437/stajGorevlerim-main/blob/main/WebApplication1/images/autocomplate1.png)
